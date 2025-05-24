@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+    color: #0056b3;
+    text-align: center;
+}
+
+.input-section form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.input-section label {
+    font-weight: bold;
+}
+
+.input-section input[type="text"],
+.input-section input[type="time"] {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.input-section button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.input-section button:hover {
+    background-color: #0056b3;
+}
+
+.message {
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.message.success {
+    color: green;
+}
+
+.message.error {
+    color: red;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+table th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+/* Bagian .summary-section dihapus jika Anda menghapusnya dari HTML */
+/*
+.summary-section {
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #e9f5ff;
+    border: 1px solid #cce7ff;
+    border-radius: 5px;
+}
+
+.summary-section h2 {
+    margin-top: 0;
+}
+*/
+
+.action-section {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.reset-button {
+    padding: 10px 15px;
+    background-color: #dc3545; /* Warna merah untuk reset */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.reset-button:hover {
+    background-color: #c82333; /* Warna merah lebih gelap saat hover */
+}

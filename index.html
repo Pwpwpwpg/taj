@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistem Pemantauan Kedatangan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Data Kedatangan Koridor</h1>
+
+        <div class="input-section">
+            <h2>Masukkan Data Baru</h2>
+            <form id="dataForm">
+                <label for="koridor">Koridor:</label>
+                <input type="text" id="koridor" required>
+
+                <label for="pengelola">Pengelola:</label>
+                <input type="text" id="pengelola" required>
+
+                <label for="waktuKedatangan">Waktu Kedatangan (HH:MM):</label>
+                <input type="time" id="waktuKedatangan" required>
+
+                <button type="submit">Tambah Data</button>
+            </form>
+            <p id="message" class="message"></p>
+        </div>
+
+        <div class="action-section">
+            <button id="resetDataButton" class="reset-button">Reset Semua Data</button>
+            </div>
+
+        <div class="data-section">
+            <h2>Data Tersimpan</h2>
+            <table id="dataTable">
+                <thead>
+                    <tr>
+                        <th>Koridor</th>
+                        <th>Pengelola</th>
+                        <th>Waktu Kedatangan</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    </tbody>
+            </table>
+        </div>
+
+        </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
